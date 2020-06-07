@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  color: #333333;
+  line-height: 28px;
+}
+h1,
+h2,
+h3 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  margin: 0;
+}
+.contenedor--cajas {
+  width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.caja {
+  max-width: 430px;
+}
+.caja__contenido {
+  padding: 25px;
+  background-color: #ffffff;
+}
+.caja span {
+  color: #8841da;
+}
+.caja a {
+  text-decoration: none;
+  color: #012179;
+}
